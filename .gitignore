@@ -1,0 +1,89 @@
+# -----------------------------
+# OS Files
+# -----------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# -----------------------------
+# Node.js
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+out/
+.tmp/
+.cache/
+
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+.eggs/
+.env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.mypy_cache/
+coverage/
+*.cover
+*.log
+
+# -----------------------------
+# IDE & Editor Files
+# -----------------------------
+# VSCode
+.vscode/
+.history/
+
+# JetBrains IDEs (PyCharm, WebStorm, etc.)
+.idea/
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# -----------------------------
+# Logs & Temp
+# -----------------------------
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# -----------------------------
+# Other common ignores
+# -----------------------------
+*.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
