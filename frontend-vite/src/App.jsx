@@ -8,7 +8,7 @@ import InvoicesPage from './pages/dashboard/InvoicesPage'
 import NewInvoicePage from './pages/dashboard/NewInvoicePage'
 import SettingsPage from './pages/dashboard/SettingsPage'
 
-import { Spinner } from '@/components/ui/Spinner';
+import { Spinner } from '@/components/ui/spinner';
 
 import PublicLayout from './components/layout/PublicLayout' // --- NEW ---
 import LandingPage from './pages/public/LandingPage' // --- NEW ---
