@@ -4,7 +4,7 @@ import api from '@/lib/api';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Plus } from 'lucide-react';
-import { Spinner } from '@/components/ui/Spinner';
+import { Spinner } from '@/components/ui/spinner';
 import InvoiceTable from './components/InvoiceTable'; // Re-using the component
 
 // The fetcher function for React Query
